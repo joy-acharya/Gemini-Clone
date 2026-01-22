@@ -21,7 +21,7 @@ JoyAI is a high-performance, responsive AI chat application built with **React**
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/joy-acharya/Gemini-Clone.git](https://github.com/joy-acharya/Gemini-Clone.git)
+   git clone [https://github.com/joy-acharya/Gemini-Clone.git]
 
 
 2.  Install dependencies:
