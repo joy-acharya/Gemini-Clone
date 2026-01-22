@@ -24,19 +24,19 @@ JoyAI is a high-performance, responsive AI chat application built with **React**
    git clone [https://github.com/joy-acharya/Gemini-Clone.git](https://github.com/joy-acharya/Gemini-Clone.git)
 
 
-Install dependencies:
-Bash
-npm install
+2.  Install dependencies:
+    Bash
+    npm install
 
-Set up Environment Variables: Create a .env file in the root directory and add your API key:
-VITE_GEMINI_API_KEY=your_api_key_here
+3.  Set up Environment Variables: Create a .env file in the root directory and add your API key:
+    VITE_GEMINI_API_KEY=your_api_key_here
 
-Run the development server:
-Bash
-npm run dev
+4.  Run the development server:
+    Bash
+    npm run dev
+
 
 Developed with ❤️ by Joy Acharya
-
 
 ### 🤝 Let's Connect!
 - 💼 [LinkedIn](https://www.linkedin.com/in/staywithjoy)
