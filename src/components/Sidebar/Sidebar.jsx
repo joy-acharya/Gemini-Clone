@@ -8,7 +8,7 @@ const Sidebar = () => {
     const {onSent, prevPromts, setRecentPromts, newChat} = useContext(Context)
 
     const loadPromt = async(promt) => {
-      setRecentPromts(prevPromts);
+      setRecentPromts(promt);
       await onSent(promt)
     }
 

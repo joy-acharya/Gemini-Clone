@@ -1,16 +1,46 @@
-# React + Vite
+# JoyAI - Modern AI Assistant 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JoyAI is a high-performance, responsive AI chat application built with **React** and powered by the **Google Gemini API**. This version has been fully refactored with a custom UI, enhanced state management, and optimized API integration.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ✨ Features
+- **Real-time AI Interaction:** Seamlessly integrated with Google's `gemini-1.5-flash` model.
+- **Modern UI/UX:** A custom indigo-purple theme with a glassmorphism aesthetic and responsive layout.
+- **Interactive History:** Persists recent prompts in the sidebar for quick access.
+- **Smart Suggestions:** Functional prompt cards to help users get started instantly.
+- **Secure Architecture:** Uses environment variables to protect sensitive API keys.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite
+- **Styling:** Modern CSS (Flexbox, Grid, CSS Variables)
+- **AI Model:** Google Generative AI (Gemini API)
+- **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/joy-acharya/Gemini-Clone.git](https://github.com/joy-acharya/Gemini-Clone.git)
+
+
+Install dependencies:
+Bash
+npm install
+
+Set up Environment Variables: Create a .env file in the root directory and add your API key:
+VITE_GEMINI_API_KEY=your_api_key_here
+
+Run the development server:
+Bash
+npm run dev
+
+Developed with ❤️ by Joy Acharya
+
+
+### 🤝 Let's Connect!
+- 💼 [LinkedIn](https://www.linkedin.com/in/staywithjoy)
+- 📧 [Email](mailto:joycseuiu@gmail.com)
+
+---
+*"Always learning, always building."*
