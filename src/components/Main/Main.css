@@ -1,112 +1,112 @@
 .main {
-    flex: 1;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--bg-color);
-    overflow: hidden; /* Keeps the app from having a double scrollbar */
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  overflow: hidden; /* Keeps the app from having a double scrollbar */
 }
 
 .main .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
 }
 
 .main-container {
-    flex: 1; /* This takes all available space */
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow-y: auto; /* If content is too big, only THIS part scrolls, not the whole page */
+  flex: 1; /* This takes all available space */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-y: auto; /* If content is too big, only THIS part scrolls, not the whole page */
 }
 
 .main .greet {
-    margin: 20px 0px;
-    font-size: 40px;
-    color: #cbd5e1;
-    font-weight: 500;
-    padding: 0 20px;
+  margin: 20px 0px;
+  font-size: 40px;
+  color: #cbd5e1;
+  font-weight: 500;
+  padding: 0 20px;
 }
 
 .main .greet span {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 20px;
 }
 
 .main .card {
-    height: 100px;
-    padding: 12px;
-    background: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
+  height: 100px;
+  padding: 12px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .main .card p {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .main-bottom {
-    flex-shrink: 0; /* CRITICAL: Prevents this section from disappearing */
-    width: 100%;
-    max-width: 900px;
-    margin: 10px auto; 
-    padding: 0 20px;
+  flex-shrink: 0; /* CRITICAL: Prevents this section from disappearing */
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 0 20px;
 }
 
 .search-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .search-box input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 16px;
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
 
 .search-box img {
-    width: 22px;
-    height: 22px;
+  width: 22px;
+  height: 22px;
 }
 
 .main .bottom-info {
-    font-size: 11px;
-    margin: 10px auto;
-    text-align: center;
-    color: #64748b;
-    line-height: 1.5;
+  font-size: 11px;
+  margin: 10px auto;
+  text-align: center;
+  color: #64748b;
+  line-height: 1.5;
 }
 
 /* Scrollbar styling for the result/cards area */
 .main-container::-webkit-scrollbar {
-    width: 4px;
+  width: 4px;
 }
 .main-container::-webkit-scrollbar-thumb {
-    background-color: #cbd5e1;
-    border-radius: 10px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
 }

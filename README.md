@@ -35,6 +35,10 @@ JoyAI is a high-performance, responsive AI chat application built with **React**
     ```bash
     npm run dev
 
+5. 🐳 Running with Docker
+   ```bash
+    docker-compose up --build
+
 
 Developed with ❤️ by Joy Acharya
 

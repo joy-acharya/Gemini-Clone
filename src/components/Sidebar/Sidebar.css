@@ -1,89 +1,89 @@
 .sidebar {
-    min-height: 100vh;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #ffffff; /* Modern clean white */
-    padding: 20px 15px;
-    border-right: 1px solid #e2e8f0;
-    transition: width 0.3s ease;
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff; /* Modern clean white */
+  padding: 20px 15px;
+  border-right: 1px solid #e2e8f0;
+  transition: width 0.3s ease;
 }
 
 .sidebar img {
-    width: 20px;
-    opacity: 0.7;
+  width: 20px;
+  opacity: 0.7;
 }
 
 .sidebar .menu {
-    display: block;
-    margin-left: 10px;
-    cursor: pointer;
-    margin-bottom: 40px;
+  display: block;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .sidebar .new-chat {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 15px;
-    background: #f1f5f9; /* Soft background */
-    border-radius: 50px;
-    font-size: 14px;
-    color: #475569;
-    cursor: pointer;
-    transition: 0.3s;
-    border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  background: #f1f5f9; /* Soft background */
+  border-radius: 50px;
+  font-size: 14px;
+  color: #475569;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid transparent;
 }
 
 .sidebar .new-chat:hover {
-    background: #e2e8f0;
-    border-color: #6366f1;
+  background: #e2e8f0;
+  border-color: #6366f1;
 }
 
 .sidebar .recent {
-    display: flex;
-    flex-direction: column;
-    animation: fadeIn 0.5s;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s;
 }
 
 .sidebar .recent-title {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 12px;
-    color: #94a3b8;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .sidebar .recent-entry {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    padding-right: 40px;
-    border-radius: 12px;
-    color: #334155;
-    cursor: pointer;
-    transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  padding-right: 40px;
+  border-radius: 12px;
+  color: #334155;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .sidebar .recent-entry:hover {
-    background-color: #f1f5f9;
-    color: #6366f1;
+  background-color: #f1f5f9;
+  color: #6366f1;
 }
 
 .sidebar .bottom-item {
-    cursor: pointer;
-    transition: 0.2s;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .sidebar .bottom-item:hover {
-    background-color: #f1f5f9;
+  background-color: #f1f5f9;
 }
 
 /* Ensure active/selected items stand out */
 .sidebar .recent-entry p {
-    font-size: 14px;
-    white-space: nowrap;
+  font-size: 14px;
+  white-space: nowrap;
 }
