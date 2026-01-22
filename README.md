@@ -25,14 +25,14 @@ JoyAI is a high-performance, responsive AI chat application built with **React**
 
 
 2.  Install dependencies:
-    Bash
+    ```bash
     npm install
 
 3.  Set up Environment Variables: Create a .env file in the root directory and add your API key:
     VITE_GEMINI_API_KEY=your_api_key_here
 
 4.  Run the development server:
-    Bash
+    ```bash
     npm run dev
 
 
