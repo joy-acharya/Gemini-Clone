@@ -5,10 +5,10 @@ import { Context } from '../../context/Context';
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
-  const { onSent, prevPromts, setRecentPromts, newChat } = useContext(Context);
+  const { onSent, prevPromts, setRecentPrompts, newChat } = useContext(Context);
 
   const loadPromt = async (promt) => {
-    setRecentPromts(promt);
+    setRecentPrompts(promt);
     await onSent(promt);
   };
 

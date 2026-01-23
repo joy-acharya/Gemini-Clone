@@ -135,7 +135,7 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            JoyAI uses the Gemini API. Verify important info before use.
+              JoyAI uses the Gemini API. Verify important info before use.
           </p>
         </div>
       </div>
